@@ -1,4 +1,41 @@
 *{
     margin: 0%;
     background-color: burlywood;
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+}
+header{
+    display: flex;
+    position: relative;
+  
+}
+h1 {
+    display: inline-block;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+    font-weight: 900;
+    top: 5vh;
+    left: 40%;
+}
+h2 {
+    display: inline-block;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+    top: 5vh;
+    left: 93%;
+}
+h3 {
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    font-size: 10vh;
+    top: 5vh;
+    left: 30vh;
+}
+.pag1{
+    width: 50%;
+    height: 50%;
 }
