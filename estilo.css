@@ -1,46 +1,108 @@
 * {
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    overflow: hidden;
+    margin: 0%;
+   
 }
 header{
-    display:inline-block;
+    display: inline-block;
     position: relative;
-    background-color: rgb(3, 19, 33);
-    height: 20vh;
-    width: 200vh;
-    overflow: hidden;
+    font-size: 10vh;
+    width: 100%;
+    height: 15vh;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
 }
 .pag1{
     display: inline-block;
     position: relative;
-    width: 100vh;
+    width: 100%;
     height: 100vh;
-    background-color: aqua;
+    background-color: black;
 }
 h1 {
     display: inline-block;
     position: relative;
-    color: rgb(255, 255, 255);
+    color: aliceblue;
+    text-align: center;
     font-size: 3vh;
-    font-weight: 900;
-    top: 5vh;
-    left: 40%;
+    left: 60%;
+    top: 8%;
+
 }
 h2 {
     display: inline-block;
     position: relative;
-    color: rgb(255, 255, 255);
+    color: aliceblue;
+    text-align: center;
     font-size: 3vh;
-    top: 5vh;
-    left: 93%;
+    left: 65%;
+    top: 8%;
+
 }
 h3 {
     display: inline-block;
     position: relative;
     color: aliceblue;
-    font-size: 10vh;
+    text-align: center;
+    font-size: 3vh;
+    left: 70%;
+    top: 8%;
+
+}
+
+h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30vh;
+    left: 15%;
+    top: 0%;
+}
+h5{
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    font-size: 3vh;
+    left: 80%;
+    top: 35%;
+}
+
+.linha1{
+    position: relative;
+    left: 80%;
+    top: 40vh;
+    width: 10%;
+}
+.linha2{
+    position: relative;
+    left: 55%;
+    top: -23vh;
+    width: 25%;
+}
+.img1{
+    display: inline-block;
+    position: absolute;
+    width: 24%;
+    height: 55vh;
+    left: 55%;
+    top: 40vh;
+}
+.img2{
+    display: inline-block;
+    position: absolute;
+    width: 23%;
+    height: 53vh;
+    left: 75%;
+    top: 25vh;
+}
+.img3{
+    display: inline-block;
+    position: absolute;
+    border-radius: 100%;
+    width: 5%;
+    height: 10vh;
+    left: 2%;
     top: 5vh;
-    left: 30vh;
 }
