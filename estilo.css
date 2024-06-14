@@ -7,9 +7,17 @@ i{
     display:inline-flex;
     position: fixed;
     color: rgb(255, 255, 255);
-    font-size: 5vh;
+    font-size: 4vh;
     left: 3%;
     top: 30vh;
+}
+.fa-brandsa-whatsapp{
+    display:inline-flex;
+    position: fixed;
+    color: rgb(255, 255, 255);
+    font-size: 4vh;
+    left: 3%;
+    top: 40vh;
 }
 
 
@@ -22,6 +30,9 @@ header{
     color: aliceblue;
     background-color: rgb(0, 0, 0);
 }
+
+/*------------------PAGINA 1 -------------------------------*/
+
 .pag1{
     display: inline-block;
     position: relative;
@@ -70,15 +81,7 @@ h4{
     left:30%;
     top: 0%;
 }
-h5{
-    display: inline-block;
-    position: relative;
-    color: aliceblue;
-    text-align: center;
-    font-size: 3vh;
-    left: 80%;
-    top: 35%;
-}
+
 h6{
     display: inline-block;
     position: relative;
@@ -91,16 +94,12 @@ h6{
 
 .linha1{
     position: relative;
-    left: 80%;
-    top: 40vh;
-    width: 10%;
+    left: 15%;
+    height: 15vh;
+    top: 20vh;
+    width: 0%;
 }
-.linha2{
-    position: relative;
-    left: 55%;
-    top: -23vh;
-    width: 25%;
-}
+
 
 .img3{
     display: inline-block;
@@ -111,8 +110,7 @@ h6{
     left: 2%;
     top: 5vh;
 }
-
-
+/*------------------PAGINA 2 -------------------------------*/
 .pag2{
     display: inline-block;
     position: relative;
@@ -155,24 +153,41 @@ h7{
     left: 47%;
     top: 13%;
 }
-
+/*------------------PAGINA 3 -------------------------------*/
 .pag3 {
     display: inline-block;
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     max-height: 100vh;
     left: 0%;
-    top: 10vh;
+    top: 15vh;
     background-blend-mode: darken;
     background-attachment: fixed;
-    background-image: linear-gradient(rgba(3, 0, 12, 0.8),
-            rgba(3, 0, 12, 0.8)), url("../Imagens/costas.jpg");
+    background-image: linear-gradient(rgba(3, 0, 12, 0.9),
+            rgba(3, 0, 12, 0.9)), url("../Imagens/costas.jpg");
     background-repeat:round;
     background-size: cover;
     -webkit-background-size: cover;
     overflow: hidden;
 }
+
+h5{
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    font-size: 5vh;
+    left: 37%;
+    top: 30%;
+}
+.linha2{
+    position: relative;
+    left: 35%;
+    width: 30%;
+    top: 30vh;
+}
+/*------------------PAGINA 4 -------------------------------*/
 .pag4{
     display: inline-block;
     position: relative;
@@ -180,6 +195,7 @@ h7{
     height: 100vh;
     background-color: rgb(0, 0, 0);
 }
+
 
 h8{
     display: inline-block;
@@ -199,8 +215,8 @@ button{
     background-color:transparent;
     display: inline-block;
     width: 15em;
-    left: -2em;
-    top: 10em;
+    left: 32em;
+    top: -5em;
     height: 3em;
     line-height: 0em;
     overflow: hidden;
