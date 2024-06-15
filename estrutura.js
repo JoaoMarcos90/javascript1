@@ -11,6 +11,7 @@ const sr= ScrollReveal({
   sr.reveal('.linha2',{delay:200, origin:'top'});
   sr.reveal('.img3',{delay:100, origin:'top'});
   sr.reveal('.botao',{delay:100, origin:'top'});
+  sr.reveal('.botao2',{delay:100, origin:'top'});
   sr.reveal('.h4',{delay:-200, origin:'top'});
   sr.reveal('.h5',{delay:-200, origin:'top'});
 
