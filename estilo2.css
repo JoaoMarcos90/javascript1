@@ -1,0 +1,146 @@
+* {
+    margin: 0%;
+   box-sizing: border-box;
+   text-decoration: none;
+
+}
+/*========================= MIDIAS SOCIAIS =======================================*/
+
+header{
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-size: 10vh;
+    width: 100%;
+    height: 50vh;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+}
+
+/*------------------PAGINA 1 -------------------------------*/
+
+.pag1{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+
+}
+h1 {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    font-size: 2vh;
+    left: 78%;
+    top: 8%;
+
+}
+h2 {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: #fcfcfc;
+    text-align: center;
+    font-size: 2vh;
+    left: 80%;
+    top: 8%;
+
+}
+h3 {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    font-size: 2vh;
+    left: 82%;
+    top: 8%;
+
+}
+
+
+
+h6{
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    font-size: 4vh;
+    right: 8%;
+    top: 10%;
+}
+
+
+.img3{
+    display: inline-block;
+    position: absolute;
+    border-radius: 100%;
+    width: 5%;
+    height: 10vh;
+    left: 2%;
+    top:5%;
+}
+
+.img2{
+    display: inline-block;
+    position: absolute;
+    width: 38%;
+    height: 70vh;
+    left: 55%;
+    top:25%;
+}
+
+.pag2{
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+    height: 70vh;
+    top: 25vh;
+    left: 5%;
+    background-color: rgb(66, 63, 63);
+    overflow: hidden;
+}
+h4{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    font-size: 6vh;
+    left:15%;
+    top: 25%;
+}
+
+.linha1{
+    position: relative;
+    color: rgb(0, 0, 0);
+    border-left: 5px solid;
+    left: 0%;
+    width: 20%;
+    top: 8vh;
+}
+
+.linha2{
+    position: relative;
+    color: rgb(0, 0, 0);
+    border-left: 5px solid;
+    left: 80%;
+    width: 20%;
+    top: 25vh;
+}
+
+h5{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    font-size: 3vh;
+    right: 5%;
+    top: 2vh;
+  
+}
